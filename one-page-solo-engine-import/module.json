@@ -1,0 +1,27 @@
+{
+    "name": "one-page-solo-engine-import",
+    "title": "One Page Solo Engine Import",
+    "author": "Axemrose",
+    "description": "An import of the One Page Solo Engine by Karl Hendricks, complete with Roll Tables and Macros.",
+    "packs": [
+        {
+            "name": "opse-roll-table",
+            "label": "OPSE Roll Table",
+            "type": "RollTable",
+            "path": "/packs/opse-roll-table.db",
+            "entity": "RollTable",
+            "module": "one-page-solo-engine-import"
+        },
+        {
+            "name": "opse-macros",
+            "label": "OPSE Macros",
+            "type": "Macro",
+            "path": "/packs/opse-macros.db",
+            "entity": "Macro",
+            "module": "one-page-solo-engine-import"
+        }
+    ],
+    "minimumCoreVersion": "0.0.0",
+    "compatibleCoreVersion": "1000",
+    "version": "1.0"
+}
